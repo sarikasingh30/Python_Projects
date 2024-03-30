@@ -24,8 +24,7 @@ high = 10
 name = input("Hello! What's your Name? ")
 print(f'Welcome {name},\n I am choosing a number between {low} and {high}')
 x = random.randint(low, high)
-print(
-    f'Now your turn to guess the number and you will get only {guessChance} chances')
+print(f'Now your turn to guess the number and you will get only {guessChance} chances')
 flag = fun(t, guessChance, x)
 if (flag == False):
     print("Oops! Chances over")
